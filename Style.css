@@ -1,0 +1,9 @@
+#b1:hover{
+    background-color: black;
+    color: antiquewhite;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+#b1{
+    transition: transform 0.3s ease-in-out;
+}
