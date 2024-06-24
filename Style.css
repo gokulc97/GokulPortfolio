@@ -7,9 +7,68 @@
 #b1{
     transition: transform 0.3s ease-in-out;
 }
-
+body{
+    background-color: black;
+    font-family:myportfolio;
+}
+@font-face{
+    font-family: myportfolio;
+    src: url(/Fonts/MonoRegular-jEmAR.ttf);
+}
 .navbar {
- text-decoration: none;
+ list-style-type: none;
  padding:0;
  margin: 0;
+ overflow: hidden;
+ background-color: orangered;
+ border-radius: 15px;
+
+}
+.navelement{
+    display: inline;
+    float: left;
+}
+.navelement :hover{
+    background-color: white;
+    color: orangered;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.navelementlast{
+    float: right;
+}
+.navelementlast :hover{
+    background-color: white;
+    color: orangered;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.navelement a {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.navelementlast a {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.navelementtitle h1{
+    color: white;
+    padding: 20px;    margin: 0;
+    align-content: center;
+}
+.navelementtitle{
+    display: flex;
+
+}
+.avatorimg{
+    padding: 20px;
+    border-radius: 50%;
+    width: 70px;
+    height: fit-content;
+    max-height: 70px;
+    object-fit: cover;
 }
