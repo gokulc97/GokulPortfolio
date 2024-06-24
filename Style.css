@@ -22,25 +22,21 @@ body{
  overflow: hidden;
  background-color: orangered;
  border-radius: 15px;
+ display: flex;
+ align-items: center;
 
 }
 .navelement{
     display: inline;
-    float: left;
+    float: right;
 }
 .navelement :hover{
     background-color: white;
     color: orangered;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
 }
-
-.navelementlast{
-    float: right;
-}
-.navelementlast :hover{
-    background-color: white;
-    color: orangered;
-    border-radius: 10px 10px 0px 0px;
+.navelementhead{
+    margin-right: auto;
 }
 
 .navelement a {
@@ -49,20 +45,15 @@ body{
     text-decoration: none;
     color: white;
 }
-.navelementlast a {
-    padding: 20px;
-    display: block;
-    text-decoration: none;
-    color: white;
-}
+
 .navelementtitle h1{
     color: white;
-    padding: 20px;    margin: 0;
+    padding: 20px;    
+    margin: 0;
     align-content: center;
 }
 .navelementtitle{
     display: flex;
-
 }
 .avatorimg{
     padding: 20px;
@@ -72,3 +63,21 @@ body{
     max-height: 70px;
     object-fit: cover;
 }
+.maincontent{
+    margin-top: 10px;
+    
+    height: 500px;
+    width: 100%;
+    border-radius:15px;
+    animation-name: maincontentanime;
+    animation-duration:10s;
+}
+
+@keyframes maincontentanime {
+    0% {background-color: red;}
+    25% {background-color: blueviolet;}
+    50% {background-color: tomato;}
+    100%{background-color: transparent;}
+}
+
+
