@@ -152,7 +152,7 @@ margin: 20px;
     height: 30px;
     border: 7px solid;
     border-radius: 50%;
-    border-color: #0fba1a black black rgb(213, 10, 10);
+    border-color: #0fba1a black black rgba(129, 126, 126,0.5);
     animation:rotate 1.5s linear infinite;
 }
 
